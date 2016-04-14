@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog Bruno H</title>
+    <link href="/normalize.css" rel="stylesheet">
+    <style>
+      header {
+      text-align: center;
+      background: url('http://img11.hostingpics.net/pics/365142DSC00262.jpg');
+      background-size: 100% 130%;
+      color: red;
+      }
+      a {
+      color: white;
+      }
+      h1 {
+      font-size: 50px;
+      }
+      img {
+      margin: 20px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      }
+      article {
+      max-width: 600px;
+      padding: 20px;
+      margin: 0 auto;
+      }
+      @media (max-width: 600px) {
+        h1 {
+        font-size: 36px;
+        }
+        li {
+        display: block;
+        padding: 5px;
+        }
+      }
+      ul {
+      padding: 10px;
+      background: black;
+      }
+      li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="http://img15.hostingpics.net/thumbs/mini_119660TowerBridge.jpg" />
+      <h1>Bruno H. Voici mon blog</h1>
+      <ul>
+        <li><a href="#">A propos de moi</a></li>
+        <li><a href="#">Ce que j'aime</a></li>
+        <li><a href="#">Ce qui me fait fuir</a></li>
+      </ul>
+    </header>
+
+    <article>
+      <h2>Quel âge peut-on me donner ?</h2>
+      <p>A la fois physiquement et psychologiquement, comme à la caméra cachée des années 80-90 quand on demande à un passant de donner l'âge à son homologue un autre passant au moment de l'interview, une constance sort du lot : le paraître de la personne en ligne de mire influe énormément sur l'âge qu'on peut lui en donner. "L'habit ne fait pas le moine" comme aime bien dire notre vieil adage mais, d'une façon plus pragmatique, l'image qu'on donne de soi peut jouer ou déjouer en sa faveur.</p>
+      <button>J'aime</button>
+    </article>
+
+    <article>
+      <h3>Quel sens donner à sa vie ?</h3>
+      <p>Comme beaucoup, la question ne se pose guère quand on était haut comme 3 pommes ni quand on était jeune adulte d'ailleurs. C'est seulement quelques décennies plus tard que survient cette quête de sens. Est-ce parce qu'on a grandi ? Ou est-ce parce que sa conscience voire son subconscient vient d'atteindre sa maturité ? Plus assagi peut-être ? Freud saura-t-il nous donner quelque lumière là-dessus ?</p>
+      <button>J'aime</button>
+    </article>
+
+    <article>
+      <h3>Et la croyance dans tout cela ?</h3>
+      <p>La culture y est pour beaucoup dans ce questionnement. Les petites têtes blondes des pays occidentaux ne connaissent guère la peur de fantômes comme en Asie où les fantômes et les esprits, bons ou mauvais peu importe, sont à tous les coins de rue, et que les adultes prenaient un malin plaisir de nous faire peur lors des veillées de notre enfance. Cependant, tout fantôme n'a que peu ou prou de pouvoir surnaturel sur les vivants en plein jour mais, le soir venu, attention, on dirait que leur puissance centuple, capable de nous posséder et nous dirige comme bon lui semble. A bon entendeur.</p>
+      <button>J'aime</button>
+    </article>
+
+    <script>
+      $("button").on("click", function() {
+          alert("T'as cliqué sur un bouton !");
+      });
+    </script>
+  </body>
+</html>
